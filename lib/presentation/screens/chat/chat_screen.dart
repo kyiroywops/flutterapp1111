@@ -7,6 +7,7 @@ import "../../providers/chat_provider.dart";
 import "../../widgets/chat/her_message_bubble.dart";
 
 class ChatScreen extends StatelessWidget {
+  final Onvalue;
   const ChatScreen({super.key});
 
   @override

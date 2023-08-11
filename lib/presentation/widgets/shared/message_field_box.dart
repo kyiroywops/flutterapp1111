@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MessageFieldBox extends StatefulWidget {
-  const MessageFieldBox({Key? key}) : super(key: key);
+  final ValueChanged<String> onValue;
+  const MessageFieldBox({Key? key, required this.onValue}) : super(key: key);
 
   @override
   _MessageFieldBoxState createState() => _MessageFieldBoxState();
